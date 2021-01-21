@@ -1,6 +1,10 @@
 # HLTV_tgBot
 A telegram bot that parses HLTV matches live and issues this.
-## Python 3.XX 
+## Requirements
+* Python 3.XX 
 * pyTelegramBotAPI 
 * selenium 
 * chromedriver 
+## Use
+Insert api from telegram into config.py file
+And start 
