@@ -8,7 +8,7 @@ def connect():
     chrome_options.add_argument("--headless")
 
     global driver
-    driver = webdriver.Chrome('/home/dima/PycharmProjects/selenium/chromedriver', options=chrome_options)
+    driver = webdriver.Chrome('./chromedriver', options=chrome_options)
     driver.get("https://www.hltv.org/matches")
     sleep(2)
     return 'Connect'
